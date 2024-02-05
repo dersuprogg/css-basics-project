@@ -25,10 +25,17 @@ html {
   font-size: 62.5%;
 }
 
+:root {
+  --primary-color: #fc6736;
+  --secondary-color: #ffb0b0;
+  --font-color: #efecec;
+}
+
 body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   font-family: "Work Sans", sans-serif;
+  background-color: var(--primary-color);
 }
 /*
   Improve media defaults
