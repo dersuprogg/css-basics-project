@@ -35,7 +35,6 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
   font-family: "Work Sans", sans-serif;
-  background-color: var(--primary-color);
 }
 /*
   Improve media defaults
