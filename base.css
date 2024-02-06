@@ -110,3 +110,7 @@ h6 {
   letter-spacing: -2px;
   cursor: pointer;
 }
+
+.homepage {
+  text-decoration: none;
+}
