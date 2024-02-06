@@ -57,3 +57,27 @@
   font-size: 3.2rem;
   margin-bottom: 2rem;
 }
+
+.btn {
+  border: none;
+  background-color: var(--font-color);
+  font-size: 1.6rem;
+  color: var(--primary-color);
+  font-weight: bold;
+  padding: 1rem 2rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn:first-of-type {
+  margin-right: 1rem;
+}
+
+.btn.btn--secondary {
+  background-color: transparent;
+  color: var(--font-color);
+  box-shadow: inset 0 0 0 4px var(--font-color);
+  padding: 1rem 3rem;
+}
