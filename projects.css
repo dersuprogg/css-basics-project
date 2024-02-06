@@ -48,3 +48,20 @@
 .project__description {
   font-size: 1.2rem;
 }
+
+@media (max-width: 800px) {
+  .body-projects main {
+    padding: 3.2rem;
+  }
+  .projects {
+    grid-template-columns: 1fr;
+  }
+
+  .project__img {
+    height: 30rem;
+  }
+
+  .project__description {
+    max-width: 400px;
+  }
+}
