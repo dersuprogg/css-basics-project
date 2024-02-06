@@ -4,39 +4,9 @@
   background-color: var(--primary-color);
 }
 
-.header {
-  display: flex;
-  max-width: 100rem;
-  margin: 0 auto;
-  padding: 0 4.8rem;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.header h1 {
-  font-weight: normal;
-  font-size: 3.2rem;
-  color: #0c2d57;
-  font-weight: bold;
-  letter-spacing: -2px;
-  cursor: pointer;
-}
-
-.body-home .main-nav__list {
-  display: flex;
-  gap: 2.4rem;
-  list-style: none;
-}
-.body-home .main-nav__list__item {
-  text-decoration: none;
-  font-size: 2rem;
-}
-
 .body-home .main-nav__list__item:link,
 .body-home .main-nav__list__item:visited {
   color: var(--font-color);
-  transition: all 0.3s;
-  padding: 5px 10px;
 }
 
 .body-home .main-nav__list__item:hover,
