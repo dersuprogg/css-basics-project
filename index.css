@@ -66,13 +66,52 @@
 }
 
 @media (max-width: 600px) {
+  .body-home {
+    position: relative;
+  }
   .hero__heading {
     font-size: 46px;
     margin-bottom: 20px;
   }
+  .homepage {
+    margin-left: auto;
+  }
 
   .hero__subheading {
     font-size: 26px;
+  }
+
+  .hamburger {
+    display: flex;
+    z-index: 1;
+  }
+
+  .main-nav__list {
+    display: none;
+  }
+
+  .open .main-nav__list {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-color);
+    opacity: 0.95;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .open .main-nav__list__item {
+    font-size: 42px;
+  }
+
+  .body-home .hero {
+    padding: 4.8rem;
+    margin: 0 auto;
   }
 }
 

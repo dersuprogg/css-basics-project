@@ -114,3 +114,18 @@ h6 {
 .homepage {
   text-decoration: none;
 }
+
+/* MAKING A HAMBURGER BUTTON */
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  cursor: pointer;
+  display: none;
+}
+.hamburger__slice {
+  background-color: #fff;
+  height: 4px;
+  width: 30px;
+}
